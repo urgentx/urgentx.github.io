@@ -1,4 +1,4 @@
-# personal-website
+# Personal Website
 Made dynamic and responsive using JQuery. Will include portfolio and blog migrated from Wordpress.  
    
 Color scheme:   
