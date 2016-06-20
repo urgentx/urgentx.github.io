@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link href='https://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Jaldi' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.blue_grey-lime.min.css"/>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="css/reset.css" type="text/css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css" media="screen">
+	
+<script src="https://use.fontawesome.com/fecdb5b229.js"></script>
+
+	<script src="js/js-3.0.0.min.js"></script>
+	<!-- include extern jQuery file but fall back to local file if extern one fails to load !-->
+<script src="http://code.jquery.com/jquery-3.0.0.min.js"></script>
+<script type="text/javascript">window.jQuery || document.write('<script type="text\/javascript" src="js\/jquery-3.0.0.min.js"><\/script>')</script>
+	<script src="js/jquery.slides.min.js"></script></head>
+	</head>
+	
+	<script defer src="https://code.getmdl.io/1.1.3/material.min.js"></script> 
+	<title>Barco Zaleta</title>
+</head>
+
+<script>
+$(function() {$('#slides').slidesjs({height: 230,
+navigation: false,
+pagination: false,
+effect: { fade: {speed: 400}},callback:
+{start: function(number)
+{$("#slider_content1,#slider_content2,#slider_content3").fadeOut(500);},
+complete: function(number)
+{$("#slider_content" + number).delay(500).fadeIn(200);}},
+play:
+{active: false,
+auto: true,
+interval: 6000,
+pauseOnHover: false}});});
+
+</script>
+<html>
+	<header>
+		<h1>Barco Zaleta</h1>
+		<p>Software construction and design</p>
+		<div class="socialhead">
+		<a class="mdl-navigation__link" href="https://github.com/urgentx" target="_blank">
+              <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-js-ripple-effect mdl-shadow--2dp github">
+                <i class="fa fa-github fa-inverse"></i>
+              </button>
+            </a>
+			
+			<a class="mdl-navigation__link" href="https://github.com/urgentx" target="_blank">
+              <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-js-ripple-effect mdl-shadow--2dp linkedin">
+                <i class="fa fa-linkedin fa-inverse"></i>
+              </button>
+            </a>
+			
+			<a class="mdl-navigation__link" href="https://twitter.com/barcozaleta" target="_blank">
+              <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-js-ripple-effect mdl-shadow--2dp twitter">
+                <i class="fa fa-twitter fa-inverse"></i>
+              </button>
+            </a>
+				
+		</div>
+			
+		<nav class="mdl-navigation">		
+			<ul>				
+				<li> <a href="">Home</a></li>
+				<li> <a href="">C V</a></li>
+				<li> <a href="">Work</a></li>
+				<li> <a href="">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section class="container">
+		<h2 class="hidden">Work</h2>
+		<article id="slider_content1">
+			<h3>Android applications</h3>
+			<p>Simple and elegant photomanipulation app, responsive games.</p>
+		</article>
+		<article id="slider_content2">
+			<h3>Text adventures</h3>
+			<p>Object-oriented interaction featuring artificial intelligence algorithms.</p>
+			</article>
+		<article id="slider_content3">
+			<h3>Web design</h3>
+			<p>Websites observant of function and form.</p>
+			</article>
+		<div id="slides">
+			<img src="img/slide1.jpg" alt="Android app">
+			<img src="img/slide2.jpg" alt="Text game">
+			<img src="img/slide3.png" alt="Algorithm visualizer">
+		</div>
+	</section>
+	<section id="spacer">
+		<h2 class="hidden">Nice to have you here! </h2>
+		<p>Drop your first name for a more homely stay</p>
+		<div class="namedrop">
+			<form action="#">
+				<input type="text" name="firstname" value=""/>
+				<input   type="submit" name="submit_name" class="button" value="Hi!"/>
+			</form>
+		</div>
+	</section>
+	<section id="boxcontent">
+		<h2 class="hidden">Filler</h2>
+		<article>
+			<img src="img/diploma.png" alt="BSc icon" class="diploma"/>
+			<a href="https://www.auckland.ac.nz/en.html"><h3>The University of Auckland</h3></a>
+			<p>BSc Computer Science, including AI, Algorithmics, Distributed Computing, HCI classes. </p>
+		</article>
+		<article>
+			<img src="img/smartphone.png" alt="Android icon" class="phone"/>
+			<a href="https://play.google.com/store/apps/developer?id=Urgent+X"><h3>Android developer</h3></a>
+			<p>3 completed apps. 2D sidescroller game, photo-manipulator, personal organiser.</p>
+		</article>
+		<article>
+			<img src="img/magic-wand.png" alt="Magic wand icon" class="wand"/>
+			<a href=""><h3>Skills/Tools</h3></a>
+			<p>Well-versed in Java, Android, XML, Git, Linux shell, etc. Improving knowledge on HTML/CSS, AngularJS, C, etc.</p>
+			</article>
+		
+		<br class="clear"/>
+	</section>
+	
+	<footer>
+		<h2 class="hidden">Footer</h2>
+		<section id="copyright">
+			<h3 class="hidden">Developer details</h3>
+			<div class="wrapper">
+						<div class="socialfoot">
+		<a class="mdl-navigation__link" href="https://github.com/urgentx" target="_blank">
+              <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-js-ripple-effect mdl-shadow--2dp github">
+                <i class="fa fa-github fa-inverse"></i>
+              </button>
+            </a>
+			
+			<a class="mdl-navigation__link" href="https://github.com/urgentx" target="_blank">
+              <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-js-ripple-effect mdl-shadow--2dp linkedin">
+                <i class="fa fa-linkedin fa-inverse"></i>
+              </button>
+            </a>
+			
+			<a class="mdl-navigation__link" href="https://github.com/urgentx" target="_blank">
+              <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-js-ripple-effect mdl-shadow--2dp twitter">
+                <i class="fa fa-twitter fa-inverse"></i>
+              </button>
+            </a>
+				
+		</div>
+				<p>Website designed by Barco Zaleta. All assets are free.</p>
+			</div>
+		</section>
+	</footer>			
+</html>

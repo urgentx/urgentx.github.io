@@ -1,0 +1,392 @@
+body
+{
+	border-top:5px solid #CDDC39;
+	background: #558C89;
+	font-family:'Open Sans', sans-serif;
+	color:#333333;
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0;
+    margin: 0;
+}
+
+input
+{
+	font-family:'Jaldi', sans-serif;
+	
+	font-size: 16px;
+	padding:7px;
+	outline:0;
+	border:0;
+	width:250px;
+	background:#F5F5F5;
+	border-radius:5px;
+}
+
+input[type=submit]
+{
+	width:auto;
+	padding: 5px 18px;
+	line-height:25px;
+	text-shadow:none;
+	cursor:pointer;
+	box-shadow:none;
+	background: #607D8B;
+	color:#fff;
+	font-family:'Jaldi', sans-serif;
+}
+
+
+
+p
+{
+	margin:5px 0;
+	line-height: 25px;
+}
+
+a
+{
+	text-decoration: none;
+	color: inherit;
+	transition: color .5s ease;
+}
+
+strong
+{
+	font-weight:bold;
+}
+
+header
+{
+	background:#558C89;
+	position:relative;
+	width:auto;
+	max-width:900px;
+	margin: 0 auto 20px auto;
+}
+
+header h1{
+	margin: 35px 0 0 0;
+	font-size: 55px;
+	color:#CDDC39;
+	font-family:'Bree Serif', serif;
+}
+
+header p
+{
+	font-family:'Jaldi', sans-serif;
+	font-size:16px;
+	color:#CDDCA9;
+	margin-left:104px;
+}
+
+.socialhead
+{
+	padding-top:50px;
+	margin-bottom:-50px;
+	margin-left:-250px;
+}
+
+.mdl-navigation__link
+{
+	padding:10px;	
+	
+}
+.github
+{
+	background-color:#CDDC39;
+	
+}
+.github:hover
+{
+	background-color:black;
+}
+
+.linkedin
+{
+	background-color:#CDDC39;
+}
+.linkedin:hover
+{
+	background-color:#0077B5;
+	
+}
+
+.twitter
+{
+	background-color:#CDDC39;
+}
+.twitter:hover
+{
+	
+	background-color:#55ACEE;
+}
+
+.mdl-navigation__link:hover
+{
+	
+	
+}
+nav ul
+{
+	list-style:none;
+	margin-left:620px;
+}
+
+nav ul li
+{
+	display:block;
+	float:left;
+	padding:20px 15px;
+}
+
+nav ul li a
+{
+	font-family: 'Jaldi', sans-serif;
+	text-transform: uppercase;
+	transition: all .25s ease;
+	color:#9E9E9E;
+}
+
+nav ul li a:hover
+{
+	color:#CDDC39;
+}
+
+#slider_content1, #slider_content2, #slider_content3
+{
+	line-height: 25px;
+	font-family:'Jaldi', sans-serif;
+	width:350px;
+	position:absolute;
+	top:15%;
+	left:15%;
+	display:none;
+	z-index:11; //??
+}
+
+#slider_content1
+{
+	display:block;
+}
+
+.container
+{
+	width:auto;
+	margin: 0 auto;
+	margin-top:50px;
+	position:relative;
+}
+
+#slider_content1 h3, #slider_content2 h3, #slider_content3 h3
+{	
+	color:gray;
+	font-size:25px;
+	font-weight:bold;
+	margin-bottom:10px;
+	background-color:#CDDC39;
+	padding:10px 15px;
+	border-radius: 1px 5px 15px 1px;
+	display: inline-block;
+}
+
+#slider_content1 p, #slider_content2 p, #slider_content3 p
+{
+	margin: 0 0 30px 0;
+	color:#4a463b;
+	background-color:#CDDCA9;
+	padding:10px 15px;
+	border-radius: 5px;
+}
+
+#spacer
+{
+	width:auto;
+	height:70px;
+	background-color:#CDDC89;
+	position:relative;
+	font-family:'Jaldi', sans-serif;
+	color:#fff;
+	font-size:18px;
+}
+
+#spacer p
+{
+	margin-top:22px;
+	width:auto;
+	position:absolute;
+	left:50%;
+	margin-left:-450px;
+}
+
+#spacer .namedrop
+{
+	margin-top:15px;
+	width:auto;
+	position:absolute;
+	right:50%;
+	margin-right:-400px;
+}
+
+#boxcontent
+{
+	width:auto;
+	max-width:900px;
+	margin: 0 auto;
+	padding:70px 0 45px 0;
+	
+}
+
+#boxcontent article
+{
+	float:left;
+	width:250px;
+	margin-right:45px;
+	font-size:14px;
+}
+
+#boxcontent article h3
+{
+	font-family:'Jaldi', sans-serif;
+	font-size:20px;
+	margin-bottom:10px;
+	margin-left:120px;
+	
+}
+
+#boxcontent a:hover
+{
+	color:#CDDC39;
+}
+
+#boxcontent article img
+{
+	float:left;
+	height:auto;
+	witdh:auto;
+	max-height:100px;
+	max-width:100px;
+}
+
+#boxcontent article p
+{
+	line-height:25px;
+	font-family:'Jaldi', sans-serif;
+	margin-left:120px;	
+	
+}
+
+.phone:hover
+{
+animation-name: stylie-transform2-keyframes;
+animation-duration: 100ms;
+animation-delay: 0ms;
+animation-fill-mode: forwards;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+transform-origin: 0 0;
+}
+
+.diploma:hover
+{
+
+animation-name: stylie-transform-keyframes;
+animation-duration: 1000ms;
+animation-delay: 0ms;
+animation-fill-mode: forwards;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+transform-origin: 0 0;
+}
+
+.wand:hover{
+	animation-name: stylie-transform3-keyframes;
+  animation-duration: 1000ms;
+  animation-delay: 0ms;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  transform-origin: 0 0;
+}
+
+/* KEYFRAMES */
+
+
+@keyframes stylie-transform2-keyframes
+{0%
+{transform:translateX(35px) translateY(50px) rotate(0deg) translate(-50%, -50%);
+animation-timing-function: cubic-bezier(.25,.25,.75,.75);}
+100%
+{transform:translateX(50px) translateY(50px) rotate(0deg) translate(-50%, -50%);}}
+
+
+
+@keyframes stylie-transform-keyframes {
+  0% {opacity:.1 ;transform:translate(15px, 50px) scale(1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) translate(-50%, -50%);animation-timing-function: cubic-bezier(.25,.25,.75,.75);}
+  100% {opacity:1;transform:translate(45px, 50px) scale(1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) translate(-50%, -50%);}
+}
+
+@keyframes stylie-transform3-keyframes {
+  0% {transform:translate(50px, 50px) scale(1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) translate(-50%, -50%);animation-timing-function: cubic-bezier(.25,.25,.75,.75);}
+  25% {transform:translate(50px, 50px) scale(1) rotateX(0deg) rotateY(0deg) rotateZ(15deg) translate(-50%, -50%);animation-timing-function: cubic-bezier(.25,.25,.75,.75);}
+  50% {transform:translate(50px, 50px) scale(1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) translate(-50%, -50%);animation-timing-function: cubic-bezier(.25,.25,.75,.75);}
+  75% {transform:translate(50px, 50px) scale(1) rotateX(0deg) rotateY(0deg) rotateZ(-15deg) translate(-50%, -50%);animation-timing-function: cubic-bezier(.25,.25,.75,.75);}
+ 100% {transform:translate(50px, 50px) scale(1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) translate(-50%, -50%);animation-timing-function: cubic-bezier(.25,.25,.75,.75);}
+}html::after { content: url(https://ga-beacon.appspot.com/UA-42910121-1/stylie?pixel); position: absolute; left: -999em; }
+
+
+
+
+footer{
+	position:relative;
+	clear:both;
+	width:auto;
+	height:120px;
+	background:#CDDCA9;
+	margin-top:300px;
+	opacity:.7;
+}
+
+footer .wrapper
+{
+	line-height:25px;
+	margin: 0 auto;
+	padding-top: 30px;
+	width:auto;
+	max-width:900px;
+	font-size:14px;
+	
+}
+
+footer p
+{
+	font-family:'Jaldi', sans-serif;
+	text-align:center;
+}
+
+.socialfoot
+{
+}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
