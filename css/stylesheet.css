@@ -54,6 +54,10 @@ a
 	transition: color .5s ease;
 }
 
+a:hover
+{
+	color:#CDDC39;
+}
 strong
 {
 	font-weight:bold;
@@ -87,7 +91,7 @@ header p
 {
 	padding-top:50px;
 	margin-bottom:-50px;
-	margin-left:-250px;
+	margin-left:-200px;
 }
 
 .mdl-navigation__link
@@ -388,6 +392,8 @@ animation-timing-function: cubic-bezier(.25,.25,.75,.75);}
 
 
 
+
+
 #about .about-image .thumb-screen:hover
 {
 	opacity:0.5;
@@ -419,6 +425,11 @@ footer p
 {
 	font-family:'Jaldi', sans-serif;
 	text-align:center;
+}
+
+.socialfoot
+{
+margin-left:-200px;
 }
 
 
