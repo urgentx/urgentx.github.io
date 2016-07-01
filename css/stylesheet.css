@@ -13,7 +13,8 @@ body
     margin: 0;
 }
 
-input
+
+input, textarea
 {
 	font-family:'Jaldi', sans-serif;
 	
@@ -36,7 +37,13 @@ input[type=submit]
 	box-shadow:none;
 	background: #607D8B;
 	color:#fff;
-	font-family:'Jaldi', sans-serif;
+	font-family:'Jaldi', sans-serif;	
+}
+
+#name, #email, #message
+{
+	width:auto;
+
 }
 
 
@@ -261,6 +268,16 @@ nav ul li a:hover
 	
 }
 
+#visitorNameP
+{
+	line-height:25px;
+	font-family:'Jaldi', sans-serif;
+	
+	padding-bottom:27px;	
+	border-bottom: 1px dotted #9E9E9E;
+	
+}
+
 #boxcontent a:hover
 {
 	color:#CDDC39;
@@ -432,7 +449,19 @@ footer p
 margin-left:-200px;
 }
 
+.workimage
+{
+	max-width:300px;
+	max-height:200px;
+	display:inline-block;
+}
 
+.workp
+{
+	margin-left:50px;
+	width:500px;
+	display:inline-block;
+}
 
 
 
