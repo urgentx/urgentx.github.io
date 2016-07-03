@@ -76,7 +76,7 @@ header
 	position:relative;
 	width:auto;
 	max-width:900px;
-	margin: 0 auto 20px auto;
+	margin: 0 auto 50px auto;
 }
 
 header h1{
@@ -268,16 +268,6 @@ nav ul li a:hover
 	
 }
 
-#visitorNameP
-{
-	line-height:25px;
-	font-family:'Jaldi', sans-serif;
-	
-	padding-bottom:27px;	
-	border-bottom: 1px dotted #9E9E9E;
-	
-}
-
 #boxcontent a:hover
 {
 	color:#CDDC39;
@@ -387,7 +377,7 @@ animation-timing-function: cubic-bezier(.25,.25,.75,.75);}
 #about .about-image img
 {
 	max-height:200px;
-	max-width:160px;
+	width:150px;
 	display:inline-block;
 	
 }
@@ -423,7 +413,7 @@ footer{
 	width:auto;
 	height:120px;
 	background:#CDDCA9;
-	margin-top:300px;
+	margin-top:100px;
 	opacity:.7;
 }
 
@@ -451,8 +441,9 @@ margin-left:-200px;
 
 .workimage
 {
-	max-width:300px;
-	max-height:200px;
+	
+	height:170px;
+	width:300px;
 	display:inline-block;
 }
 
@@ -461,6 +452,7 @@ margin-left:-200px;
 	margin-left:50px;
 	width:500px;
 	display:inline-block;
+	
 }
 
 

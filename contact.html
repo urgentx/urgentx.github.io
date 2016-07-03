@@ -45,7 +45,7 @@ pauseOnHover: false}});});
 
 	<header>
 		<h1>Contact</h1>
-		<p>Thanks for reaching out!</p>
+		<p>Thanks for reaching out</p>
 		<div class="socialhead">
 		<a class="mdl-navigation__link" href="https://github.com/urgentx" target="_blank">
               <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-js-ripple-effect mdl-shadow--2dp github">
@@ -53,7 +53,7 @@ pauseOnHover: false}});});
               </button>
             </a>
 			
-			<a class="mdl-navigation__link" href="https://github.com/urgentx" target="_blank">
+			<a class="mdl-navigation__link" href="https://nz.linkedin.com/in/barco-zaleta" target="_blank">
               <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-js-ripple-effect mdl-shadow--2dp linkedin">
                 <i class="fa fa-linkedin fa-inverse"></i>
               </button>
@@ -77,11 +77,16 @@ pauseOnHover: false}});});
 		</nav>
 	</header>
 	
-	<section id="boxcontent">	
-		<p id="visitorNameP">I look forward to hearing from you about absolutely anything. I'll get back to you within a few hours.</p>		
+	<section id="about">	
+		<h2 id="visitorNameP"></h2>		
 		<script>
 			var fir = localStorage.fn;
-			document.getElementById('visitorNameP').innerHTML = fir + ", " + document.getElementById('visitorNameP').innerHTML;			
+			if(fir.length > 0){
+			document.getElementById('visitorNameP').innerHTML = fir + ", my message form" ;		
+			}				
+			else {
+			document.getElementById('visitorNameP').innerHTML = "My message form";	
+			}
 		</script>		
 	</section>
 	
@@ -103,6 +108,14 @@ pauseOnHover: false}});});
 	</form>
 	</section>
 	
+	<section id="about">
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<p style="text-align:center;">Thanks for getting in touch! I'll be sure to get back to you within a few hours.</p>
+	</section>
+	
 	<footer>
 		<h2 class="hidden">Footer</h2>
 		<section id="copyright">
@@ -115,7 +128,7 @@ pauseOnHover: false}});});
               </button>
             </a>
 			
-			<a class="mdl-navigation__link" href="https://github.com/urgentx" target="_blank">
+			<a class="mdl-navigation__link" href="https://nz.linkedin.com/in/barco-zaleta" target="_blank">
               <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-js-ripple-effect mdl-shadow--2dp linkedin">
                 <i class="fa fa-linkedin fa-inverse"></i>
               </button>
