@@ -75,12 +75,12 @@ header
 	background:#558C89;
 	position:relative;
 	width:auto;
-	max-width:900px;
-	margin: 0 auto 50px auto;
+	max-width:1200px;
+	margin: 0 auto 50px 40px;
 }
 
 header h1{
-	margin: 35px 0 0 0;
+	margin: 35px 0 0 100px;
 	font-size: 55px;
 	color:#CDDC39;
 	font-family:'Bree Serif', serif;
@@ -91,21 +91,23 @@ header p
 	font-family:'Jaldi', sans-serif;
 	font-size:16px;
 	color:#CDDCA9;
-	margin-left:104px;
+	margin-left:204px;
 }
 
 .socialhead
 {
+	
 	padding-top:50px;
 	margin-bottom:-50px;
-	margin-left:-200px;
+	margin-left:auto;
+	margin-right:auto;
 }
 
 .mdl-navigation__link
 {
-	padding:10px;	
-	
+	padding:10px;		
 }
+
 .github
 {
 	background-color:#CDDC39;
@@ -139,12 +141,16 @@ header p
 .mdl-navigation__link:hover
 {
 	
-	
 }
+
+
+
+
 nav ul
 {
 	list-style:none;
-	margin-left:620px;
+	margin-left:730px;
+	float:right;
 }
 
 nav ul li
@@ -156,6 +162,7 @@ nav ul li
 
 nav ul li a
 {
+	
 	font-family: 'Jaldi', sans-serif;
 	text-transform: uppercase;
 	transition: all .25s ease;
@@ -397,10 +404,6 @@ animation-timing-function: cubic-bezier(.25,.25,.75,.75);}
 	display:block;
 }
 
-
-
-
-
 #about .about-image .thumb-screen:hover
 {
 	opacity:0.5;
@@ -436,8 +439,11 @@ footer p
 
 .socialfoot
 {
-margin-left:-200px;
+	
+	margin-left:-200px;
 }
+
+
 
 .workimage
 {
@@ -455,6 +461,152 @@ margin-left:-200px;
 	
 }
 
+@media (min-width: 900px)
+{
+	#smallnav{
+display:none;
+}
+
+.smallwork{
+display:none;
+}
+
+.smallbr
+{
+display:none;
+}
+}
+
+@media (max-width: 900px)
+{
+
+header ul
+{
+display:none;
+}
+
+#smallnav{
+	display:block;
+	list-style:none;
+	margin-left:10px;
+	margin-top:100px;
+	margin-bottom:50px;
+	float:left;
+
+}
+
+.smallwork{
+color:#CDDC39;
+text-align: center;
+line-height:25px;
+margin-bottom:30px;
+margin-top:30px;
+}
+.about-image
+{
+padding:10px;
+margin-left:50px;
+}
+
+
+#smallnav  li
+{
+	display:block;
+	float:left;
+	padding:20px 15px;
+	
+}
+
+#smallnav li a
+{
+	
+	font-family: 'Jaldi', sans-serif;
+	text-transform: uppercase;
+	transition: all .25s ease;
+	color:#9E9E9E;
+}
+
+#smallnav li a:hover
+{
+	color:#CDDC39;
+}
+
+.workimage
+{
+display:none;
+}
+
+#about h2
+{
+display:none;
+}
+
+#about
+{	
+	top: -1500px;
+}
+
+.container
+{
+top: -1500px;}
+
+header
+{
+height:120px;
+margin-bottom:100px;}
+
+
+header nav
+{
+right: auto;
+bottom: auto;
+left: 50%;
+top:100px;
+margin-left: -500px;}
+
+#spacer
+{
+height:0px;
+display:none;}
+  
+#boxcontent
+{
+display:block;
+margin-left:50px;
+}
+
+#about p
+{
+float:left;
+width:280px;
+}
+
+
+
+footer
+{
+padding-bottom:70px;
+height: auto;}
+
+footer .wrapper
+{
+width: 350px;
+margin: 0 auto;}
+
+footer .wrapper .column
+{
+margin-top:30px;
+float:none;
+font-size: 14px;
+width: auto;}
+
+.socialfoot
+{
+display:none;}
+
+
+
+}
 
 
 
