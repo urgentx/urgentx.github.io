@@ -94,7 +94,7 @@ header p
 	margin-left:204px;
 }
 
-.socialhead
+.socialhead, .socialheadwork, .socialheadcontact
 {
 	
 	padding-top:50px;
@@ -356,7 +356,7 @@ animation-timing-function: cubic-bezier(.25,.25,.75,.75);}
 }html::after { content: url(https://ga-beacon.appspot.com/UA-42910121-1/stylie?pixel); position: absolute; left: -999em; }
 
 
-#about
+.about
 {
 	line-height:25px;
 	font-family:'Jaldi', sans-serif;
@@ -365,7 +365,7 @@ animation-timing-function: cubic-bezier(.25,.25,.75,.75);}
 	margin:0 auto;
 }
 
-#about h2
+.about h2
 {
 	font-size:20px;
 	border-bottom: 1px dotted #9E9E9E;
@@ -373,7 +373,7 @@ animation-timing-function: cubic-bezier(.25,.25,.75,.75);}
 	margin-bottom: 20px;
 }
 
-#about .about-image 
+.about .about-image 
 {
 	float:left;
 	margin-right:25px;
@@ -381,14 +381,14 @@ animation-timing-function: cubic-bezier(.25,.25,.75,.75);}
 
 	
 }
-#about .about-image img
+.about .about-image img
 {
 	max-height:200px;
 	width:150px;
 	display:inline-block;
 	
 }
-#about .about-image figcaption
+.about .about-image figcaption
 {
 	float:right;
 	display:inline-block;
@@ -398,15 +398,20 @@ animation-timing-function: cubic-bezier(.25,.25,.75,.75);}
 }
 
 
-#about .about-image about
+.about .about-image about
 {
 	position:relative;
 	display:block;
 }
 
-#about .about-image .thumb-screen:hover
+.about .about-image .thumb-screen:hover
 {
 	opacity:0.5;
+}
+
+#homebreak
+{
+margin: 70px auto;
 }
 	
 
@@ -440,7 +445,7 @@ footer p
 .socialfoot
 {
 	
-	margin-left:-200px;
+	margin-left:-180px;
 }
 
 
@@ -485,6 +490,15 @@ header ul
 display:none;
 }
 
+.socialheadcontact
+{
+margin-top:60px;
+}
+
+.socialheadwork
+{
+margin-top:20px;
+}
 #smallnav{
 	display:block;
 	list-style:none;
@@ -536,24 +550,26 @@ margin-left:50px;
 display:none;
 }
 
-#about h2
+.about h2
 {
 display:none;
 }
 
-#about
+.about
 {	
-	top: -1500px;
+	display:inline-table;
+	
 }
 
 .container
 {
+display:none;
 top: -1500px;}
 
 header
 {
 height:120px;
-margin-bottom:100px;}
+margin-bottom:60px;}
 
 
 header nav
@@ -575,13 +591,16 @@ display:block;
 margin-left:50px;
 }
 
-#about p
+.about p
 {
 float:left;
-width:280px;
+width:275px;
 }
 
-
+#homebreak 
+{
+display:none;
+}
 
 footer
 {
