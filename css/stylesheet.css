@@ -383,7 +383,7 @@ animation-timing-function: cubic-bezier(.25,.25,.75,.75);}
 }
 .about .about-image img
 {
-	max-height:200px;
+	height:110px;
 	width:150px;
 	display:inline-block;
 	
@@ -618,6 +618,13 @@ margin-top:30px;
 float:none;
 font-size: 14px;
 width: auto;}
+
+footer p 
+{
+float:center;
+width:275px;
+	
+}
 
 .socialfoot
 {

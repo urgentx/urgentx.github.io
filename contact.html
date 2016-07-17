@@ -69,7 +69,7 @@ pauseOnHover: false}});});
 			
 		<nav class="mdl-navigation">		
 			<ul>				
-				<li> <a href="home.html">Home</a></li>
+				<li> <a href="index.html">Home</a></li>
 				<li> <a href="">C V</a></li>
 				<li> <a href="work.html">Work</a></li>
 				<li> <a href="contact.html">Contact</a></li>
@@ -79,7 +79,7 @@ pauseOnHover: false}});});
 	
 	<section>
 	<ul id="smallnav">				
-				<li> <a href="home.html">Home</a></li>
+				<li> <a href="index.html">Home</a></li>
 				<li> <a href="">C V</a></li>
 				<li> <a href="work.html">Work</a></li>
 				<li> <a href="contact.html">Contact</a></li>
@@ -89,20 +89,17 @@ pauseOnHover: false}});});
 	<br class="smallbr"/><br class="smallbr"/><br class="smallbr"/><br class="smallbr"/><br class="smallbr"/><br class="smallbr"/><br class="smallbr"/><br class="smallbr"/><br class="smallbr"/><br class="smallbr"/><br class="smallbr"/><br class="smallbr"/><br class="smallbr"/>
 	
 	<section class="about">	
-		<h2 id="visitorNameP"></h2>		
+		<h2 id="visitorNameP">My message form..</h2>		
 		<script>
 			var fir = localStorage.fn;
 			if(fir.length > 0){
-			document.getElementById('visitorNameP').innerHTML = fir + ", my message form" ;		
-			}				
-			else {
-			document.getElementById('visitorNameP').innerHTML = "My message form";	
+			document.getElementById('visitorNameP').innerHTML = fir + ", my message form.." ;		
 			}
 		</script>		
 	</section>
 	
 	<section class="about">	
-	<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+	<form id="contact_form" action="https://formspree.io/barcozaleta@gmail.com" method="POST" enctype="multipart/form-data">
 		<div class="row">
 			<label for="name">Your name:</label><br/>
 			<input id="name" class="input" name="name" type="text" value="" size="30"><br/>
